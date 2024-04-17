@@ -2,12 +2,12 @@ import { Component, OnInit } from '@angular/core';
 import { Chart, registerables } from 'node_modules/chart.js'
 import { MasterService } from '../service/master.service';
 Chart.register(...registerables);
-
+ya oussema ya kaleb 
 @Component({
   selector: 'app-mychart',
   templateUrl: './mychart.component.html',
   styleUrls: ['./mychart.component.css']
-})
+})ya oussema ya kaleb
 export class MychartComponent implements OnInit {
 
   constructor(private service: MasterService) { }
@@ -41,7 +41,7 @@ export class MychartComponent implements OnInit {
     this.RenderBubblechart();
     this.RenderScatterchart();
     
-  }
+  }ya oussema ya kaleb
 
   RenderChart(labeldata:any,maindata:any,colordata:any,type:any,id:any) {
     const myChart = new Chart(id, {
@@ -79,7 +79,7 @@ export class MychartComponent implements OnInit {
         data: [{
           x: 20,
           y: 30,
-          r: 15
+          r: 15ya oussema ya kaleb
         }, {
           x: 40,
           y: 10,
